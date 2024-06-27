@@ -1,4 +1,4 @@
-# Genetic-Algorithm-API
+# Genetic-Algorithm-Library
 
 
 ## Concept
