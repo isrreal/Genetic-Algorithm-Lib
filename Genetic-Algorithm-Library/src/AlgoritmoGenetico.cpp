@@ -1,4 +1,3 @@
-#include <iostream>
 #include "AlgoritmoGenetico.hpp"
 
 //
@@ -45,7 +44,6 @@ std::vector<std::string> AlgoritmoGenetico::leituraDeValores(Cromossomo* cromoss
 
 std::vector<std::string> AlgoritmoGenetico::binarioParaDecimal(std::vector<std::string> binarios) {
 	std::vector<std::string> decimais;
-	int valor = 0;
 
 	for (auto it: binarios) 
 		decimais.push_back(binarioParaDecimal(it));

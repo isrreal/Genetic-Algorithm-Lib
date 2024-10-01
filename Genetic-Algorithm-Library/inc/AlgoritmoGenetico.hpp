@@ -18,7 +18,6 @@ class AlgoritmoGenetico {
 		
 		Cromossomo* criarCromossomo(size_t);
               	virtual void criarPopulacao(size_t , size_t);
-		virtual void criarPopulacao(void(*funcao));
         	std::vector<std::string> binarioParaDecimal(std::vector<std::string>);
         	virtual std::pair<Cromossomo*, int> fitness(Cromossomo*);
 

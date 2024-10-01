@@ -1,5 +1,3 @@
-#include <iostream>
-#include <string>
 #include "Cromossomo.hpp"
 
 Cromossomo::Cromossomo(size_t quantidadeDeGenes) {
@@ -22,4 +20,9 @@ Cromossomo::Cromossomo(std::string primeiraMetade, std::string segundaMetade) {
 Cromossomo::Cromossomo(std::string genes) {
 	this->quantidadeDeGenes = genes.size();
 	this->genes = genes;
+}
+
+std::ostream& operator<<(std::ostream& os, Cromossomo* cromossomo) {
+	os << cromossomo->genes;
+	return os;
 }
